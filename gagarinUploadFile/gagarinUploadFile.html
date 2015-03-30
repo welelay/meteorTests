@@ -1,0 +1,17 @@
+<head>
+  <title>gagarinUploadFile</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+        <div>
+            <span>"Importer un fichier PDF"</span>
+            <input id="importedFile" type="file" class="upload" multiple="multiple" />
+        </div>
+        <p>{{fileName}}</p>
+</template>
